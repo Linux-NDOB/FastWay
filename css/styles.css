@@ -1,0 +1,573 @@
+
+
+/*Titulo*/
+.profile{
+  margin: 0px;
+  background-color: #212121;
+  height:100px;
+}
+
+/*Figura del logo*/
+.profile__logo{
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+/*Imagen*/
+.profile__photo{
+  width: 100%;
+}
+
+/*Titulo-Letras*/
+.profile__tittle {
+    font-family: 'Open Sans', sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+    width: 250px;
+    margin-left: 5px;
+    text-transform: uppercase;
+  }
+
+.menu{
+  background-color: #212121;
+  width: 100%
+  
+}
+
+.menu__list{
+  list-style: none;
+}
+
+ .menu__list , .menu__element{
+  margin-right: 10px;  
+}
+
+.menu__list , .menu__element , a {
+  color: #fafafa;
+  background-color: #212121;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans',sans-serif;
+  color: #fafafa;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  padding : 5px;
+
+}
+
+.menu__element :hover{
+  background-color: #424242;
+}
+
+.profile__logo , .profile__tittle , .menu{
+      display: inline-block;
+      vertical-align: middle;
+  }
+
+/*Banner o lo que sea xd*/
+.banner{
+  position: relative;
+  left: 100px;
+  right: 200px;
+  background: #212121;
+  width: 800px;
+  overflow: hidden;
+  
+}
+
+
+
+.banner__photox{
+  width: 100%;
+  /*opacity: 30%;*/
+}
+
+.slogan{
+  position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.slogan__tittle{ 
+  background: #212121;
+  font-family: Lato;
+  font-size: 20px;
+  color: #fafafa;
+  
+  text-align: center;
+  text-transform: uppercase; 
+
+  
+  width: 400px;
+  height:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  
+  border: 2px solid ;
+  border-color: #fafafa;
+ 
+  
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-145%, -0%);
+}
+
+/*Presentacion*/
+
+.xtittle{
+ width: 80%; 
+ padding: 0;
+}
+
+.xtittle__al{
+  margin-bottom: 70px;
+  background: #212121;
+  width: 50%;
+  font-family: Lato;
+  font-size: 45;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fafafa;
+  padding-top:20px ;
+  padding-bottom: 20px;
+  padding-left: -10px;
+  padding-right:-10px;
+  position: relative;
+  left: 400px;
+
+}
+
+
+/*SlideShow*/
+
+body{
+  background: #fafafa;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.xlide{
+  width: 90%;
+  max-width:1000px;
+  margin:20px auto;
+ 
+}
+
+.xlide__img img{
+  width: 40%;
+}
+
+.slidesjs-pagination{
+  background:  #212121;;
+  list-style: none;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li{
+  float: left;
+}
+
+.slidesjs-pagination li a{
+
+  display:block;
+  padding: 10px 20px;
+  color : #fafafa;
+  text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover{
+  background: #424242;
+}
+
+.xlide__img , .active{
+  background: #263238;
+}
+
+.slidesjs-navigation{
+  /*display: inline-block;*/
+  text-decoration: none;
+  padding: 10px 20px;
+  float: right;
+  margin-top: 15px;
+  padding-top: 13px;
+}
+
+.slidesjs-previous:hover ,  .slidesjs-next:hover , .slidesjs-play:hover , .slidesjs-stop:hover {
+
+  background:#263238;
+}
+
+.slidesjs-stop , .active{
+  background: #263238;
+}
+
+/*Descripcion*/
+
+.des{
+  margin-top: 50px;
+  width: 100%;
+  background: #212121;
+  vertical-align: middle;
+  margin-left: 350px;
+  padding:5px;
+}
+.sec{
+  
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Lato;
+  font-size: 35px;
+  color: #fafafa;
+  
+}
+
+/*H2 y parrafo*/
+
+.tx{
+  margin: 40px;
+  margin-top:40px;
+}
+
+.t1{
+  text-align: justify;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-style: bolder;
+  font-size: 15px;
+  margin-top:30px;
+  margin-bottom: 50px;
+}
+
+/*Imagen y boton de pedir*/
+
+.imgx{
+  width: 100%;
+  
+  padding:0;
+  margin: 0 auto;
+}
+
+.pho__img{
+  margin-left: 200px;
+  width: 70%;
+  height: 40%;
+  opacity: 70%;
+}
+
+
+
+.pho__t1{
+  font-family: Lato;
+  font: size 50px;
+  color: #fafafa;
+  background-color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+  width: 440px;
+  position: relative;
+  left: 450px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1px;
+  margin-bottom: 40px;
+
+}
+
+.pho_txt1{
+  margin: 35px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-family: Lato;
+}
+
+.pho__t2{
+  font-family: Lato;
+  font-size : 40px;
+  background: #212121;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: -450px;
+  width: 800px;
+  left: 285px;
+}
+
+.pho__btn{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size : 40px;
+  color: #212121;
+  border-style: solid ;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #fafafa;
+  border-color: #212121;
+  position: relative;
+  left: 550px;
+  bottom: 350px;
+  
+}
+
+/*Footer*/
+.foo{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: #212121;
+  
+}
+
+.foo___starts{
+  width: 100%;
+  margin-top: 20px;
+  list-style: none;
+  
+
+}
+
+.foo__ends , .foo__starts{
+  display: block ;
+  width: 100%;
+  margin: 40px;
+  list-style: none;
+  
+
+}
+
+.foo__element {
+  margin: 40px;
+  text-align: center;
+  width: 120px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #fafafa;
+  padding: 10px ;
+  
+
+}
+
+
+
+
+.a1 {
+  margin-top:100px;
+}
+
+.foo__element:hover {
+  background: #616161;
+}
+
+.a2{
+  
+  position: relative;
+  left: 400px;
+  margin-top:-340px;
+}
+
+.foo__element2 , .nunu{
+  display: inline-block;
+  
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #fafafa;
+  padding: 0;
+  
+}
+
+/*Formulario Diseño*/
+
+.container {
+	max-width: 450px;
+	height: auto;
+	background-color: #212121;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+	
+}
+
+.form__top {
+  font-family:Lato;
+  color: #fafafa;
+  text-transform: uppercase;
+
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #263238;
+	margin-bottom: 1rem;
+}
+
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #fafafa;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #263238 .2rem;
+	transition: all .5s;
+}
+
+.input:focus {
+	border-bottom: solid #455a64 .2rem;
+}
+
+.btn__submit, .btn__reset {
+  font-family: Lato;
+	width: 40%;
+	border-bottom: none;
+	background-color: #37474f;
+	color: #fafafa;
+}
+
+
+
+.btn__submit:hover {
+	background-color: #78909c;
+}
+
+.btn__reset:hover{
+	background-color: #78909c;
+}
+
+/*Menu*/
+
+.sp{
+  width: 328px;
+  height: 328px;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.contenedor>.contenido , .contenedor > .sidebar{
+  background: #fafafa;
+  padding: 20px;
+}
+
+.contenedor .profile{
+
+  grid-column: span 2;
+
+}
+
+.contenedor .menu {
+  grid-column: span 2;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor > .foo {
+  grid-column: span 2;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/*Diseño del article*/
+
+.art{
+  position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.ttop{
+  font-family: Lato;
+  color: #fafafa;
+  text-transform: uppercase;
+  position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado{
+  
+  text-align:center;
+  width: 90px;
+  height:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  background: #fafafa ;
+  border: 2px solid ;
+  border-color: #212121;
+  padding-top: 2px;
+
+  font-family: Lato;
+  color: #212121;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tit{
+  font-family: Lato;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.parrf{
+  
+  font-family: Lato;
+  color: #212121;
+
+}
+
+.contenido > .banner{
+  grid-column: span 2;
+  
+}
+
+.contenido > .banner__photox{
+  width: 100%;
+}
+
+
+

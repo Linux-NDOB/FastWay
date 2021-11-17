@@ -11,185 +11,118 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/95e10db5fb.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
-
-    <div class="contenedor">
-
+  <div class="flex-container">
       <!--Titulo y barra de navegacion-->
-        
-      <header class="profile">
-          <figure class=profile__logo>
-            <img src="assets/logo.jpg" alt="" class="profile__photo">
-          </figure>  
-          <h1 class="profile__tittle">FastWay</h1>
-      </header>  
-      
-      
-        <nav class="menu">
-          <ul class="menu__list" >
-            <li class=menu__element><a href="index.html">Inicio</a></li>
-            <li class=menu__element><a href="sobre.html">Sobre nosotros</a></li>
-            <li class=menu__element><a href="menux.html">Menú</a></li>
-             <li class=menu__element><a href="contacto.html">Contáctanos</a></li>      
+      <header class="xheader">
+        <nav class="xnav">
+          <a class="xnav-logo" href="index.html" >
+            <img
+            src="assets/logo.jpg" alt="" class="xnav-photo"
+            alt="Logo"
+            title="FastWay"
+            width="50px"
+            height="50px">
+            <div class="xnav-titulo">
+              <h1>FastWay</h1>
+            </div>
+          </a>
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre nosotros</a></li>
+            <li><a href="menux.html">Menú</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
           </ul>
         </nav>
-      
-        <div class="banner">
-          <img src="https://cdn.pixabay.com/photo/2016/04/09/09/22/pizza-1317699_960_720.jpg" class="banner__photox"></imgsrc>
+      </header>
+
+      <!-- SlideShow-Images-->
+      <div class="xlide">
+        <div class="xlide__img">
+          <img src="img/1.jpg" alt="">
+          <img src="img/2.jpg" alt="">
+          <img src="img/3.jpg" alt="">
+          <img src="img/4.jpg" alt="">
         </div>
-        
-        <div class="slogan">
-          <h2 class="slogan__tittle">La vía más rapida para comer</h2>
-        
-        
-        
-      
-
       </div>
+
+      <main class="contenido">
+      
+        <div class="xtittle">
+          <h2>La vía más rapida para comer</h2>
+        </div>
+
+        <div class="pizza">
+          <img src="img/7.jpg" alt="">
+        </div>
+
+          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magni cupiditate harum ad architecto iure eaque totam tempora culpa!
+            Nisi temporibus, totam qui dicta tenetur perspiciatis atque sed expedita
+            officia rerum!</p>
+    
+      </main>
+
+
+      <div class="otro">
+        <div class="x">
+          <h2>Con una nueva receta</h2>
+        </div>
        
-    
-        <main class="contenido">
-    
-          <div class="xtittle">
-            <h2 class="xtittle__al">disfruta nuestros deliciosos platillos</h2>
-          </div>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          cumque. Sit, iusto magni, consequatur qui reprehenderit, ullam voluptates eligendi
+          repellendus enim explicabo deleniti odit. Quasi debitis blanditiis consequuntur nulla
+          nam!</p>
 
-
-
-
-    
-       </main>
-    
-       <aside class="sidebar">
-    
         
-       </aside>
-    
-       <!--Footer-->
-    <footer class="foo">
       
-        <ul class="foo__ends">
-          <li class="foo__element" class="e1">Menú</li>
-          <li class="foo__element" >Sobre Nosotros</li>
-          <li class="foo__element" >Reservas</li>
-          <li class="foo__element" >Ubicación</li>
-        </ul>
-    
+      </div>
+
+      <div class="cont">
+        <figure class="pho">
+          <img class="pho-i" src="img/6.jpg" alt=""> 
+          <div class="af">No te quedes con las ganas de probarla</div>
+          <a class="pedir" href="#">¡Pidela ya!</a>
+          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+            cumque. Sit, iusto magni, consequatur qui reprehenderit, ullam voluptates eligendi
+            repellendus enim explicabo deleniti odit. Quasi debitis blanditiis consequuntur nulla
+            nam!
+          </p>
+        </figure>
       
-      <ul class="foo__starts">
-        <li class="foo__element" >Nuestra historia</li>
-        <li class="foo__element" class= "f2">Contáctanos</li>
-        <li class="foo__element" >Noticias</li>
-      </ul>
-    
-      <p class="foo__element2"> <a class="nunu" href="#">Terminos y condiciones</a> </p>
-      <p class="foo__element2"><a class="nunu" href="#">Políticas de privacidad</a></p>
-      <p class="foo__element2">@Fast Way 2021. Todos los derechos reservados</p>
-    </footer>
-    
-    </div>
-    </body>
-    
-
-
-
-
-
-    <main class="contenido">
-
-      <!--Descipcion-->
-
-      <div class="des">
-
-
-        <h2 class="sec">La vía más rápida para comer</h2>
-
 
       </div>
 
-<div class="tx">
+      <footer class="footer">
 
-<p class="t1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-  Magni cupiditate harum ad architecto iure eaque totam tempora culpa! 
-  Nisi temporibus, totam qui dicta tenetur perspiciatis atque sed expedita 
-  officia rerum!</p>
+        <div class="fnav">
+          <a href="">inicio</a>
+          <a href="">menú</a>
+          <a href="">sobre nosotros</a>
+          <a href="">contáctanos</a>
+          
+          <div class="other">
+            <a href="">Política de privacidad</a>
+            <a href="">FastWay 2021 Todos los derechos reservados</a>
+          </div>
+        </div>
 
+        <div class="icons">
+          <a href=""><i class="fab fa-whatsapp"></i></a>
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href=""><i class="fab fa-instagram-square"></i></a>
+        </div>
 
-</div>
-
-
-
-    
-
-
-<!-- SlideShow-Images-->
-<div class="xlide">
-  <div class="xlide__img">
-    <img src="img/1.jpg" alt="">
-    <img src="img/2.jpg" alt="">
-    <img src="img/3.jpg" alt="">
-    <img src="img/4.jpg" alt="">
+        
+        </div>
+      </footer>
   </div>
-</div>
-
- <!--SlideShow-scripts-src-->
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="js/jquery.slides.js"></script>
-
-
-
-<div class="imgx">
-
-  <h2 class="pho__t1">Con una nueva receta</h2>
-  <p class="pho_txt1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-     cumque. Sit, iusto magni, consequatur qui reprehenderit, ullam voluptates eligendi 
-     repellendus enim explicabo deleniti odit. Quasi debitis blanditiis consequuntur nulla 
-     nam!</p>
-  <figure class="pho">
-    <img class= "pho__img" src="img/6.jpg" alt="">
-  </figure>
-
-  <p class="pho__t2">No te quedes con las ganas de probarla</p>
-
-  <input type="button" value="¡Pidela ya!" class="pho__btn">
-
-</div>
-
-<!--Footer-->
-<footer class="foo">
-  <div class="a1">
-
-    <ul class="foo__ends">
-      <li class="foo__element" class="e1">Menú</li>
-      <li class="foo__element" >Sobre Nosotros</li>
-      <li class="foo__element" >Reservas</li>
-      <li class="foo__element" >Ubicación</li>
-    </ul>
-
-  </div >
-
-<div class="a2">
-  <ul class="foo__starts">
-    <li class="foo__element" >Nuestra historia</li>
-    <li class="foo__element" class= "f2">Contáctanos</li>
-    <li class="foo__element" >Noticias</li>
-  </ul>
-</div>
-
-<div class="a3">
-
-  <p class="foo__element2"> <a class="nunu" href="#">Terminos y condiciones</a> </p>
-  <p class="foo__element2"><a class="nunu" href="#">Políticas de privacidad</a></p>
-  <p class="foo__element2">@Fast Way 2021. Todos los derechos reservados</p>
-
-</div>
-  
-
-</footer>
-
-
-  </body>
+  <!--SlideShow-scripts-src-->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.slides.js"></script>
+    </body>
 
 <!--Slideshow-Script-->
   <script>

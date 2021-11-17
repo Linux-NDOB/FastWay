@@ -1,2 +1,2 @@
 # FastWay
-Tienda online
+Tienda online con layout y responsive design

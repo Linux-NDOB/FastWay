@@ -2,8 +2,11 @@ html{
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
   
+  
 }
-
+li{
+  list-style: none
+}
 a{
   text-decoration: none;
   color: #fafafa;
@@ -401,7 +404,7 @@ footer a{
 
 /*Responsive*/
 
-@media (max-width: 850px) {
+@media (max-width: 890px) {
   body {
     font-size: 62.5%;
   }
@@ -476,14 +479,6 @@ footer a{
     
   }
 
-
-
-
-
-
-
-
-
 @media (max-width: 592px) {
   body {
     font-size: 50%;
@@ -510,7 +505,11 @@ footer a{
   }
   
 }
-
-
+ @media (max-width: 470px){
+   .menu{
+     display: flex;
+     flex-direction: column;
+   }
+ }
 }
 

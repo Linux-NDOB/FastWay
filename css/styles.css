@@ -18,6 +18,8 @@ body{
 
 /*Contenedor*/
 .flex-container{
+  justify-content:center;
+  align-items:center;
   max-width: 1200px;;
   width: 100%;
   background: #fafafa
@@ -267,7 +269,8 @@ body{
 
 /*Imagen donde va un boton*/
 .cont {
-  width:90%;
+  display:flex;
+  width:100%;
   background: #fafafa;
   
 }
@@ -335,6 +338,7 @@ body{
 }
 
 .cont p{
+  
   color: #212121;
   font-weight: 30rem;
   font-family: Lato;
@@ -504,6 +508,15 @@ footer a{
    .menu{
      display: flex;
      flex-direction: column;
+   }
+ }
+
+ @media (max-width: 410px){
+   .af{
+     font-size:3.5em;
+   }
+   .pedir{
+     font-size:2em;
    }
  }
 }

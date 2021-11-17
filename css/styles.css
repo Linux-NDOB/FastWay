@@ -104,6 +104,7 @@ body{
   display: flex;
   padding: 0;
   width: 400%;
+  max-height: 60em;
   animation: x 20s alternate linear infinite;
   -moz-animation : x 20s infinte alternate linear infinite;
   -webkit-animation: x 20s alternate linear infinite;
@@ -112,7 +113,7 @@ body{
 
 .slider li{
   width: 100%;
-  
+  max-height: 60em;
   list-style-type:  none;
 }
 

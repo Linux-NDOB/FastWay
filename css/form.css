@@ -38,7 +38,8 @@ body{
   margin-left: 5px;
 }
 
-/*Barra de navegación*/
+/*Barra de navegación*
+
 .navbar{ 
   display: flex;
   justify-content: space-between;
@@ -67,7 +68,7 @@ body{
   font-style: bold;
 
 }
-/*Elelementos de la barra : Inicio , sobre nosostros ...*/
+Elelementos de la barra : Inicio , sobre nosostros ...
 .menu{
   display: flex;
   margin-top: 2em ;
@@ -92,6 +93,8 @@ body{
 .fnav a:hover{
   background-color: #424242;
 }
+*/
+
 
 
 /*Formulario*/
@@ -196,7 +199,17 @@ body{
   
 }
 
-/*Footer*/
+.footer{
+	max-width: 1200px;
+  background: #212121;
+  flex-wrap: wrap;
+  min-height: 30em;
+}
+.footer__nav{
+	margin-top: 3em;
+}
+
+/*Footer de
 
 .footer{
   display: flex;
@@ -238,4 +251,8 @@ body{
 
 
 
+
+
+
+*/
 

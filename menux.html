@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
@@ -14,123 +15,172 @@
   </head>
   <body>
 
-
-   
-<div class="contenedor">
-
+<div class="flex-container">
   <!--Titulo y barra de navegacion-->
-    
-  <header class="profile">
-      <figure class=profile__logo>
-        <img src="assets/logo.jpg" alt="" class="profile__photo">
-      </figure>  
-      <h1 class="profile__tittle">FastWay</h1>
-  </header>  
-  
-  
-    <nav class="menu">
-      <ul class="menu__list" >
-        <li class=menu__element><a href="index.html">Inicio</a></li>
-        <li class=menu__element><a href="sobre.html">Sobre nosotros</a></li>
-        <li class=menu__element><a href="menux.html">Menú</a></li>
-         <li class=menu__element><a href="contacto.html">Contáctanos</a></li>      
+  <header class="header">
+    <nav class="navbar">
+      <a class="navbar__logo" href="index.html">
+        <img src="assets/logo.jpg" alt="" class="navbar__photo" alt="Logo" title="FastWay" width="50px" height="50px">
+        <div class="navbar__tittle">
+          <h1>FastWay</h1>
+        </div>
+      </a>
+      <ul class="navbar__menu">
+        <li class="navbar__item"><a class="navbar__link" href=index.html>Inicio</a></li>
+        <li class="navbar__item"><a class="navbar__link" href=sobre.html>Sobre nosotros</a></li>
+        <li class="navbar__item"><a class="navbar__link" href=menux.html>Menú</a></li>
+        <li class="navbar__item"><a class="navbar__link" href=contacto.html>Contáctanos</a></li>
       </ul>
     </nav>
+  </header>
+
+  <div class="banner">
+    <img class="banner__img" src="https://cdn.pixabay.com/photo/2015/09/09/22/01/steak-933667_960_720.jpg" alt="">
+    <h2 class="banner__tit">Elije lo que quieras</h2>
+  </div>
+
   
-
-  <main class="contenido">
-
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
+  <main class="main">
     
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
+    <div class="slot1">
 
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
+      <article class="article">
+        <img class="article__img" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg"
+          alt="">
+        <div class="article__price">$11.5</div>
+        <div class="article__re">Ordenar</div>
+        <h2 class="article__name">Hamburgesa Sencilla</h2>
+        
+      </article>
+      
+      <article class="article">
+        <img class="article__img" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg"
+          alt="">
+        <div class="article__price">$11.5</div>
+        <div class="article__re">Ordenar</div>
+        <h2 class="article__name">Hamburgesa Sencilla</h2>
+        
+      </article>
 
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article> 
-
-   </main>
-
-   <aside class="sidebar">
-
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
+    </div>
     
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
+    
+    <div class="slot1">
+    
+      <article class="article">
+        <img class="article__img" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg"
+          alt="">
+        <div class="article__price">$11.5</div>
+        <div class="article__re">Ordenar</div>
+        <h2 class="article__name">Hamburgesa Sencilla</h2>
+    
+      </article>
+    
+      <article class="article">
+        <img class="article__img" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg"
+          alt="">
+        <div class="article__price">$11.5</div>
+        <div class="article__re">Ordenar</div>
+        <h2 class="article__name">Hamburgesa Sencilla</h2>
+    
+      </article>
+    
+    </div>
 
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
-
-    <article class="art">
-      <img class="sp"src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
-      <div class="ttop">$11.5</div>
-      <div class="centrado">Agregar</div>
-      <h2 class="tit">Hamburgesa Sencilla</h2>
-      <p class="parrf">Arma tu hamburgesa</p>
-    </article>  
-   </aside>
-
-   <!--Footer-->
-<footer class="foo">
+    <div class="slot1">
+    
+      <article class="article">
+        <img class="article__img" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg"
+          alt="">
+        <div class="article__price">$11.5</div>
+        <div class="article__re">Ordenar</div>
+        <h2 class="article__name">Hamburgesa Sencilla</h2>
+    
+      </article>
+    
+      <article class="article">
+        <img class="article__img" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg"
+          alt="">
+        <div class="article__price">$11.5</div>
+        <div class="article__re">Ordenar</div>
+        <h2 class="article__name">Hamburgesa Sencilla</h2>
+    
+      </article>
+    
+    </div>
   
-    <ul class="foo__ends">
-      <li class="foo__element" class="e1">Menú</li>
-      <li class="foo__element" >Sobre Nosotros</li>
-      <li class="foo__element" >Reservas</li>
-      <li class="foo__element" >Ubicación</li>
-    </ul>
 
-  
-  <ul class="foo__starts">
-    <li class="foo__element" >Nuestra historia</li>
-    <li class="foo__element" class= "f2">Contáctanos</li>
-    <li class="foo__element" >Noticias</li>
-  </ul>
+  <footer class="footer">
+    <div class="footer__nav">
+      <a class="footer__link" href="inicio.html">inicio</a>
+      <a class="footer__link" href="menux.html">menú</a>
+      <a class="footer__link" href="sobre.html">sosobre nosotros</a>
+      <a class="footer__link" href="contacto.html">contáctanos</a>
 
-  <p class="foo__element2"> <a class="nunu" href="#">Terminos y condiciones</a> </p>
-  <p class="foo__element2"><a class="nunu" href="#">Políticas de privacidad</a></p>
-  <p class="foo__element2">@Fast Way 2021. Todos los derechos reservados</p>
+      <div class="footer__other">
+        <a class="footer__link" href="">Política de privacidad</a>
+        <a class="footer__link" href="">FastWay 2021 Todos los derechos reservados</a>
+      </div>
+    </div>
+    <div class="footer__icons">
+      <a class="footer__link" href="inicio.html" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a class="footer__link" href="inicio.html"><i class="fab fa-facebook"></i></a>
+      <a class="footer__link" href="inicio.html"><i class="fab fa-instagram-square"></i></a>
+    </div>
+
+</div>
 </footer>
+</div>
 
+</body>
+   
+<!--
+ 
+
+  <aside class="sidebar">
+
+    <article class="art">
+      <img class="sp" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
+      <div class="ttop">$11.5</div>
+      <div class="centrado">Agregar</div>
+      <h2 class="tit">Hamburgesa Sencilla</h2>
+      <p class="parrf">Arma tu hamburgesa</p>
+    </article>
+
+    <article class="art">
+      <img class="sp" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
+      <div class="ttop">$11.5</div>
+      <div class="centrado">Agregar</div>
+      <h2 class="tit">Hamburgesa Sencilla</h2>
+      <p class="parrf">Arma tu hamburgesa</p>
+    </article>
+
+    <article class="art">
+      <img class="sp" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
+      <div class="ttop">$11.5</div>
+      <div class="centrado">Agregar</div>
+      <h2 class="tit">Hamburgesa Sencilla</h2>
+      <p class="parrf">Arma tu hamburgesa</p>
+    </article>
+
+    <article class="art">
+      <img class="sp" src="https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg" alt="">
+      <div class="ttop">$11.5</div>
+      <div class="centrado">Agregar</div>
+      <h2 class="tit">Hamburgesa Sencilla</h2>
+      <p class="parrf">Arma tu hamburgesa</p>
+    </article>
+  </aside>
+
+-->
+  
+  </footer>
+  </div>
+ 
+
+  
+ 
+   
 </div>
 </body>
 

@@ -25,77 +25,6 @@ body{
   background: #fafafa
   
 }
-/*Contenedor de cabecera*/
-.header{
-  background-color: #212121;
-  box-shadow: 0 0.4rem 0.5rem #37474f;
-  width: 100%;
-  max-width: 1200px;
-}
-
-
-
-/*Barra de navegación*/
-.navbar{
-  
-  display: flex;
-  justify-content: space-between;
-  padding: 1px;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex: 0 1 auto;
-}
-
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-
-}
-
-.navbar__photo{
-  margin-left: 5px;
-  border-radius: 50%;
-}
-
-
-
-.navbar__tittle{
-  font-weight: 50rem;
-  font-size: 1.8rem;
-  color: #fafafa;
-  margin-left: 10px;
-  font-style: bold;
-
-}
-
-/*Elelementos de la barra : Inicio , sobre nosostros ...*/
-.navbar__menu{
-  display: flex;
-  margin-top: 2em ;
-  padding: 0;
-}
-
-.navbar__item{
-  padding: 0 1.5em;
-}
-
-.navbar__link{
-  line-height: 5rem;
-  color: #fafafa;
-  font-size: 2.5rem;
-  font-weight: 90rem;
-  text-transform:uppercase;
-  text-decoration: none;
-}
-
-.navbar__item:hover , 
-.icons a:hover,
-.fnav a:hover{
-  background-color: #424242;
-}
-
-
 
 /*Deslizador automático*/
 .slider{
@@ -329,6 +258,77 @@ body{
 }
 
 
+/*Contenedor de cabecera*/
+.header{
+  background-color: #212121;
+  box-shadow: 0 0.4rem 0.5rem #37474f;
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+
+/*Barra de navegación*/
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 0 1 auto;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+.navbar__photo{
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+
+
+.navbar__tittle{
+  font-weight: 50rem;
+  font-size: 1.8rem;
+  color: #fafafa;
+  margin-left: 10px;
+  font-style: bold;
+
+}
+
+/*Elelementos de la barra : Inicio , sobre nosostros ...*/
+.navbar__menu{
+  display: flex;
+  margin-top: 2em ;
+  padding: 0;
+}
+
+.navbar__item{
+  padding: 0 1.5em;
+}
+
+.navbar__link{
+  line-height: 5rem;
+  color: #fafafa;
+  font-size: 2.5rem;
+  font-weight: 90rem;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+
+.navbar__item:hover , 
+.icons a:hover,
+.fnav a:hover{
+  background-color: #424242;
+}
+
+
 /*Footer*/
 
 .footer{
@@ -336,7 +336,7 @@ body{
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  
+  max-width: 1200px;
   background: #212121;
   flex-wrap: wrap;
   height: 10%;
@@ -362,6 +362,10 @@ body{
   flex-direction:row;
   font-size: 1em;;
 
+}
+
+.footer__icons{
+  margin-top: 2em;
 }
 
 .footer__link:hover{

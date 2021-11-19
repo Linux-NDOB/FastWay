@@ -38,65 +38,6 @@ body{
   margin-left: 5px;
 }
 
-/*Barra de navegación*
-
-.navbar{ 
-  display: flex;
-  justify-content: space-between;
-  padding: 1px;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex: 0 1 auto;
-}
-
-.navbar__logo {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-
-}
-
-.navbar__logo img{
-  border-radius: 50%;
-}
-
-.navbar__tittle{
-  font-weight: 50rem;
-  font-size: 1.8rem;
-  color: #fafafa;
-  margin-left: 10px;
-  font-style: bold;
-
-}
-Elelementos de la barra : Inicio , sobre nosostros ...
-.menu{
-  display: flex;
-  margin-top: 2em ;
-  padding: 0;
-}
-
- .menu__element {
-  padding: 0 1.5em;
-}
-
- .menu__link{
-  line-height: 5rem;
-  color: #fafafa;
-  font-size: 2.5rem;
-  font-weight: 90rem;
-  text-transform:uppercase;
-  text-decoration: none;
-}
-
-.menu li:hover , 
-.icons a:hover,
-.fnav a:hover{
-  background-color: #424242;
-}
-*/
-
-
-
 /*Formulario*/
 .form{
   display: flex;
@@ -123,6 +64,7 @@ Elelementos de la barra : Inicio , sobre nosostros ...
   font-size: 5rem;
   margin-bottom: 0.5em;
   color: #212121;
+  width: 100%;
 }
 
 .form__paragraph{
@@ -209,50 +151,21 @@ Elelementos de la barra : Inicio , sobre nosostros ...
 	margin-top: 3em;
 }
 
-/*Footer de
-
-.footer{
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  background: #212121;
-  flex-wrap: wrap;
-  height: 30%;
-
+@media (max-width: 400px) {
+  .form__tittle{
+    font-size: 8em;
+  }
 }
 
-.footer__link{
-  font-family:Lato;
-  font-weight: 8rem;
-  font-size:2.5rem;
-  padding: 0.4em;
-  text-transform: uppercase;
-  color: #fafafa;
+@media (max-width: 340px) {
+  .form__tittle{
+    font-size: 6em;
+  }
 }
 
-.footer__other{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+@media (max-width: 280px) {
+  .form__tittle{
+    font-size: 5em;
+  }
 }
-
-.footer__other a{
-  flex-direction:row;
-  font-size: 1em;;
-
-}
-
-.footer__link:hover{
-  background-color: #424242;
-
-}
-
-
-
-
-
-
-*/
 

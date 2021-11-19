@@ -36,6 +36,10 @@
 	
 }
 
+/* .article1{
+	background: url("https://homeburgers.com/uploads/product/0bfc25deb55f47668c4476d8900075d8/S_pollo_558x558px.jpg") top center no-repeat;
+} */
+
 .article__img{
 	width: 100%;
 	height: 80%;
@@ -60,6 +64,7 @@
 	position: absolute;
 	top: 60%;
 	left: 32%;
+	vertical-align: middle;
 	background: #fafafa;
 	border: 1px solid #212121;
 	padding: 0 1em;
@@ -78,10 +83,6 @@
 	font-weight: 800;
 }
 
-.article__sms{
-	font-family: Lato,sans-serif;
-	font-size: 1.5em;
-}
 
 /*Footer*/
 

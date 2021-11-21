@@ -55,13 +55,15 @@ body{
   max-height: 60em;
 }
 
-.about__tittle{
+/*About us section*/
+.about__tittle , .banner__titt{
   margin: 1em auto;
   font-family: Lato;
   font-size: 3rem;
   padding: 1em 0;
   color: #fafafa;
   background-color: #212121;
+  padding: 1em 0;
   
   text-align: center;
   text-transform: uppercase;
@@ -80,6 +82,8 @@ body{
   
 
 }
+
+/*Animacion de los slides*/
 
 @keyframes x {
 
@@ -490,6 +494,11 @@ body{
      display: flex;
      flex-direction: column;
    }
+
+   .about__tittle{
+     font-size:3rem;
+   }
+
  }
 
  @media (max-width: 425px){
